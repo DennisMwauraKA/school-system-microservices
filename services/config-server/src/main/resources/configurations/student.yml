@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    username: postgres
+    password: DENNIS
+    url: jdbc:postgresql://localhost:5432/studentdb
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+server:
+  port:
+    9002
