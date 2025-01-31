@@ -1,7 +1,8 @@
-package com.denis.students.controller;
+package com.denis.student.controller;
 
-import com.denis.students.dtos.CreateStudentDto;
-import com.denis.students.service.StudentService;
+
+import com.denis.student.dtos.CreateStudentDto;
+import com.denis.student.service.StudentService;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

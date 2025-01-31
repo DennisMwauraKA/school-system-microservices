@@ -1,6 +1,7 @@
-package com.denis.students.dao;
+package com.denis.student.dao;
 
-import com.denis.students.model.Student;
+
+import com.denis.student.model.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

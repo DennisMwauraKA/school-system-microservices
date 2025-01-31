@@ -1,4 +1,4 @@
-package com.denis.students.dtos;
+package com.denis.student.dtos;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -11,8 +11,8 @@ import lombok.Setter;
 @AllArgsConstructor
 public class CreateStudentDto {
     private Integer id;
-    private String firstname;
-    private String lastname;
+    private String firstName;
+    private String lastName;
     private String email;
-    private String schoolId;
+
 }
